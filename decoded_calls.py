@@ -619,7 +619,7 @@ class TgCall(PyTgCalls):
                             _autoplay_emoji = next_play_emoji()
                             _autoplay_msg = await app.send_message(
                                 chat_id=target_chat,
-                                text=f"{_autoplay_emoji} Autoplaying similar songs..."
+                                text=f"{_autoplay_emoji}"
                             )
                             # Use search_related for YouTube-like variety — different song each time
                             _next_track = await yt.search_related(
