@@ -210,7 +210,7 @@ async def play_hndlr(
 
     # Rotate to the next emoji for this /play invocation
     _play_emoji = next_play_emoji()
-    _play_text = f"{_play_emoji} Song is playing"
+    _play_text = f"{_play_emoji}"
 
     # Send searching message
     try:
