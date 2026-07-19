@@ -1,14 +1,14 @@
 # ==========================================================
-# Copyright (c) 2026 ArtistBots
+# Copyright (c) 2026 VelocityBots 
 # All Rights Reserved.
 #
-# Project      : ArtistBots API Telegram Music Bot
-# Powered By   : Artist
+# Project      : VelocityBots API Telegram Music Bot
+# Powered By   : VelocityBots 
 # Type         : API Based Telegram Music Bot
 #
-# Bot          : @ArtistApibot
-# Channel      : https://t.me/artistbots
-# GitHub       : https://github.com/elevenyts
+# Bot          : @JunoXmusic_Robot
+# Channel      : https://t.me/junoxmusic_updates
+# GitHub       : https://github.com/bishalkumarsahh-eng
 #
 # Unauthorized copying, modification, or redistribution
 # of this source code without permission is prohibited.
@@ -233,7 +233,7 @@ class Thumbnail:
                 radius=3, fill=(0, 255, 255)
             )
 
-            clean_title = re.sub(r"\W+", " ", song.title).title() + " | Artistbots"
+            clean_title = re.sub(r"\W+", " ", song.title).title() + " | VelocityBots"
             final_title = trim_to_width(clean_title, self.title_font, MAX_TITLE_WIDTH)
 
             # Drop shadow
