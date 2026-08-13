@@ -233,7 +233,7 @@ class Thumbnail:
                 radius=3, fill=(0, 255, 255)
             )
 
-            clean_title = re.sub(r"\W+", " ", song.title).title() + " | VelocityBots"
+            clean_title = re.sub(r"\W+", " ", song.title).title() + " | Moon_Music"
             final_title = trim_to_width(clean_title, self.title_font, MAX_TITLE_WIDTH)
 
             # Drop shadow
